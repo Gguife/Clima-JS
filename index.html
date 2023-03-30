@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Clima</title>
+</head>
+<body>
+  <div class="container">
+    <h1><a href="/">Clima</a><span>Gguife</span></h1>
+    <form class="search">
+      <input type="search" id="searchInput" placeholder="cidade">
+      <button>Buscar</button>
+    </form>
+    <div class="info">
+      <div class="info-city">--</div>
+  
+      <div class="info-content">
+        <div class="info-temp">
+          <div class="temp-title">Temperatura</div>
+          <div class="temp-content">--<sup>ºC</sup></div>
+          <img src="http://openweathermap.org/img/wn/10d@2x.png"/>
+        </div>
+        <div class="info-wind">
+          <div class="wind-title">Vento</div>
+          <div class="wind-content">-- <span>km/h</span></div>
+          <div class="wind-area">
+            <div class="pointer-wind" style="transform: rotate(0deg)"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="alert"></div>
+    <footer>Por <a href="https://github.com/Gguife" target="_blank">Gguife</a></footer>
+  </div>
+
+  
+  <div class="custom-shape-divider-bottom-1680137807">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+    </svg>
+
+    <script src="./script.js"></script>
+  </div>
+</body>
+</html>
